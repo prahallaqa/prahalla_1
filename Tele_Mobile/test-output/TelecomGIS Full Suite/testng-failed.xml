@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TelecomGIS Full Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="End to End Tests(failed)">
+    <classes>
+      <class name="Telecomgis.Tele.TC11b_PermitWorkAssignedToUser_To_PermitInProgress">
+        <methods>
+          <include name="TC11b"/>
+        </methods>
+      </class> <!-- Telecomgis.Tele.TC11b_PermitWorkAssignedToUser_To_PermitInProgress -->
+      <class name="Telecomgis.Tele.TC14_InitiateCBYD_To_Construction_WorkAssignedToCompany">
+        <methods>
+          <include name="TC14"/>
+        </methods>
+      </class> <!-- Telecomgis.Tele.TC14_InitiateCBYD_To_Construction_WorkAssignedToCompany -->
+      <class name="Telecomgis.Tele.TC12_PermitSubitted_To_PermitObtained">
+        <methods>
+          <include name="TC12"/>
+        </methods>
+      </class> <!-- Telecomgis.Tele.TC12_PermitSubitted_To_PermitObtained -->
+      <class name="Telecomgis.Tele.TC13_PemitObtained_To_Initiate_CBYD">
+        <methods>
+          <include name="TC13"/>
+        </methods>
+      </class> <!-- Telecomgis.Tele.TC13_PemitObtained_To_Initiate_CBYD -->
+      <class name="Telecomgis.Tele.TC16_Construction_WorkAssignedToUser_To_CInProgress">
+        <methods>
+          <include name="TC16"/>
+        </methods>
+      </class> <!-- Telecomgis.Tele.TC16_Construction_WorkAssignedToUser_To_CInProgress -->
+      <class name="Telecomgis.Tele.TC15_Construction_WorkAssignedToCompany_To_User">
+        <methods>
+          <include name="TC15"/>
+        </methods>
+      </class> <!-- Telecomgis.Tele.TC15_Construction_WorkAssignedToCompany_To_User -->
+    </classes>
+  </test> <!-- End to End Tests(failed) -->
+</suite> <!-- Failed suite [TelecomGIS Full Suite] -->

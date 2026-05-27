@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TelecomGIS Full Suite" verbose="1" configfailurepolicy="skip">
+	<test name="End to End Tests">
+		<classes>
+			<!-- <class name="Telecomgis.Tele.TC1_LogintoNWD_DesignCreation"/>
+            <class name="Telecomgis.Tele.TC2_Design_Aproval"/>
+            <class name="Telecomgis.Tele.TC3_WO_Creation"/>
+			<class name="Telecomgis.Tele.TC4_Submit_WO" />
+			<class name="Telecomgis.Tele.TC5_AssignedToCompany_To_AssignedtoVendorUser"/>
+			<class name="Telecomgis.Tele.TC6_AssignedToVendorUser_To_SurveyInProgress"/>
+			<class name="Telecomgis.Tele.TC7_SurveyInProgress_To_SurveySubmitted"/>
+			<class name="Telecomgis.Tele.TC8_Survey_Submitted_To_SurveyValidationCompleted" />
+			<class name="Telecomgis.Tele.TC9_SurveyValidationCompleted_To_PermitWorkAssignedToCompany"/>
+			<class name="Telecomgis.Tele.TC10_PermitWorkAssignedToCompany_To_AssignedToVendorUser"/>
+			<class name="Telecomgis.Tele.TC11a_PermitWorkAssignedToUser_To_PermitInProgress"/>
+			<class name="Telecomgis.Tele.TC11b_PermitWorkAssignedToUser_To_PermitInProgress"/>-->
+		    <class name="Telecomgis.Tele.TC12_PermitSubitted_To_PermitObtained"/>
+            <class name="Telecomgis.Tele.TC13_PemitObtained_To_Initiate_CBYD"/>
+            <class name="Telecomgis.Tele.TC14_InitiateCBYD_To_Construction_WorkAssignedToCompany"/>
+            <class name="Telecomgis.Tele.TC15_Construction_WorkAssignedToCompany_To_User"/>
+            <class name="Telecomgis.Tele.TC16_Construction_WorkAssignedToUser_To_CInProgress"/>
+           	<!-- <class name="Telecomgis.Tele.TC17_CInProgress_To_APIntiated"/>
+            <class name="Telecomgis.Tele.TC18_CInProgress_To_APIntiated2"/>
+            <class name="Telecomgis.Tele.TC19a_APIntiated_Pirollout"/>
+           <class name="Telecomgis.Tele.TC19b_APIntiated_To_APAccepted"/>-->
+		</classes>
+	</test>
+</suite>
